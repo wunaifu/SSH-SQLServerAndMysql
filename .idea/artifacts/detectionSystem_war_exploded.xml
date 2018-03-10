@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="detectionSystem:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/detectionSystem_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="detectionSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="mylibs" />
+          <element id="library" level="project" name="jtds-1.2.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="detectionSystem/web/Web" />
+    </root>
+  </artifact>
+</component>
